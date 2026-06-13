@@ -1,6 +1,6 @@
 [project]
 name = "amctl-template-ambot"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 readme = "README.md"
 requires-python = ">=3.10"
@@ -10,7 +10,7 @@ dependencies = ["amctl>=0.1.2"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["ambot", "ambot.*"]
+include = ["amctl", "amctl.*"]
 
 [dependency-groups]
 dev = [

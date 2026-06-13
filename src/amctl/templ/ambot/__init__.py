@@ -12,7 +12,7 @@ class ambotTemplate(BaseTemplate):
 
     __template_name__: str = "ambot"
     __template_description__: str = "Template for AmritaBot creation."
-    __core_package__: str = "amrita[full]"
+    __core_package__: str = "amrita"
     __versions__: tuple[str, ...] = ("1.2.1", "1.2.0", "1.0.0")
     __tmpl_fields__: ClassVar[dict[str, TmplField]] = {
         "description": field(
