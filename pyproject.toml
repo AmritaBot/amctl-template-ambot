@@ -1,9 +1,9 @@
 [project]
 name = "amctl-template-ambot"
-version = "0.1.1"
+version = "0.1.1.post1"
 description = ""
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.15"
 dependencies = ["amctl>=0.1.2"]
 
 [project.scripts]

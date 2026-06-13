@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.15"
 
 [[package]]
 name = "amctl"
@@ -22,7 +22,7 @@ wheels = [
 
 [[package]]
 name = "amctl-template-ambot"
-version = "0.1.0"
+version = "0.1.1.post1"
 source = { virtual = "." }
 dependencies = [
     { name = "amctl" },
