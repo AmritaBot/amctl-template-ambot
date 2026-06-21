@@ -6,7 +6,8 @@ readme = "README.md"
 license = "GPL-3.0-or-later"
 requires-python = ">=3.10, <3.15"
 dependencies = [
-    "amrita[full]>={{ version }}",
+    "amrita>={{ version }}",
+    "ambot-inlinectl>=0.1.1",
 ]
 
 [dependency-groups]
@@ -68,7 +69,12 @@ created_at = "{{ created_at }}"
 [tool.amctl.scripts]
 lint = "uv run ruff check ."
 sync = "uv sync"
-run = "uv run bot.py"
+run = "uv run ambot run"
+run_direct = "uv run bot.py"
 build = "uv build"
 update = "uv add amrita --upgrade"
 #test = "uv run pytest"
+nb = "uv run ambot nb"
+ambot = "uv run ambot"
+amctl = "uv run amctl"
+orm = "uv run ambot orm"
