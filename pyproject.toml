@@ -1,6 +1,6 @@
 [project]
 name = "amctl-template-ambot"
-version = "0.1.3"
+version = "0.1.4"
 description = "AmritaBot deployment template"
 readme = "README.md"
 requires-python = ">=3.10, <3.15"
