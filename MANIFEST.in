@@ -1,1 +1,1 @@
-recursive-include src *.tmpl *.tmpl.*
+recursive-include src *.tmpl *.tmpl.* *.pre
